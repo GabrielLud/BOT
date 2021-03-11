@@ -66,12 +66,12 @@ const apibarbar = 'apibarbar';
 const darkkey = 'apidark';
 const BotName = 'darkbot'; 
 const instagram = 'http://www.instagram.com/'; 
-const aktif = '08:00 - 22:00';
+const aktif = '08:00 - 19:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:Dark\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=5522996215481:+55 2299621-5481\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=5555999236075:+55 5599923-6075\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const ngonsol = JSON.parse(fs.readFileSync('./settings/Miku.json'))
 const {
@@ -326,11 +326,11 @@ async function starts() {
 			}
 
 			const botNumber = dark.user.jid
-			const ownerNumber = ["5522996215481@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"5522996215481@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["5522996215481@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["5522996215481@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["5522996215481@s.whatsapp.net","559784130980@s.whatsapp.net","557599941062@s.whatsapp.net","558598669655@s.whatsapp.net","5511949051934@s.whatsapp.net","554792091566@s.whatsapp.net","558699541889@s.whatsapp.net","559294313229@s.whatsapp.net","554298653614@s.whatsapp.net","12267740582@s.whatsapp.net"]
+			const ownerNumber = ["996215481@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"5555999236075@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["5555999236075@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["5555999236075@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["5555999236075@s.whatsapp.net","559784130980@s.whatsapp.net","557599941062@s.whatsapp.net","558598669655@s.whatsapp.net","5511949051934@s.whatsapp.net","554792091566@s.whatsapp.net","558699541889@s.whatsapp.net","559294313229@s.whatsapp.net","554298653614@s.whatsapp.net","12267740582@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? awat dark.groupMetadata(from) : ''
@@ -2255,7 +2255,8 @@ break
 					anu = awat fetchJson(`https://arugaz.herokuapp.com/api/howgay`, {method: 'get'})
 					reply('De acordo com o percentual gay:\n\n'+anu.desc+anu.persen)
 					break
-			  case 'next':               
+			  case 'next':
+               
                 if (isGroup) return  reply( 'NÃO PODE ESTAR EM GRUPO KAK')
                 awat reply('Ache um companheiro >_<')
                 awat reply(`wa.me/${anug}`)
@@ -3570,7 +3571,7 @@ break
 					break
 					case 'ichiadmin':
 					tod = awat getbufferer(`https://i.ibb.co/XDwBVDJ/1f2652c622fa.jpg`)
-					dark.sendMess(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT DARK ✨* 」\n*│+ wa.me/5522996215481*╰──────*「 *DARK* 」*────*\n\n*_SE QUER SER ADMIN DO BOT DARK_*\n*_Tipo /iklan_*' })
+					dark.sendMess(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT DARK ✨* 」\n*│+ wa.me/5555999236075*╰──────*「 *DARK* 」*────*\n\n*_SE QUER SER ADMIN DO BOT DARK_*\n*_Tipo /iklan_*' })
 					break
 				case 'iklan':
 					dark.sendMess(from, iklan(prefixbotbot) , text, { quoted: mek })
@@ -3579,7 +3580,7 @@ break
                     if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 					sa = awat getbufferer(`https://i.ibb.co/PcQ6tsB/79ac87b9358c.jpg`)
-					dark.sendMess(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/5522996215481*╰──────*「 * DARK* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO DARK BOT_*\n*_Ketik #daftarvip*' })
+					dark.sendMess(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/5555999236075*╰──────*「 * DARK* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO DARK BOT_*\n*_Ketik #daftarvip*' })
 					break
 					case 'cekmod': 
  
@@ -3761,7 +3762,7 @@ break
 				case 'dono':
 					memeindodododododododododododododododo = awat kagApi.memeindododododododododododododododododo()
 					bufferer = awat getbufferer(`https://i.imgur.com/AnizaD7.jpg`)
-					dark.sendMess(from, bufferer, image, {quoted: mek, caption: '*CRIADOR:* 𝐷𝐴𝑅𝐾⃖ ☔\n*YOUTUBE:* https://bit.ly/2MD43V2\n*WPP:* wa.me/+5522996215481\n*INSTA:* @th.darkys\n\n\nEspero que tenham gostado do bot 🐊🚩️'})
+					dark.sendMess(from, bufferer, image, {quoted: mek, caption: '*CRIADOR:* 𝐷𝐴𝑅𝐾⃖ ☔\n*YOUTUBE:* https://bit.ly/2MD43V2\n*WPP:* wa.me/+5555999236075\n*INSTA:* @th.darkys\n\n\nEspero que tenham gostado do bot 🐊🚩️'})
 					break
 				case 'setprefixbotbot':
 					if (args.length < 1) return
